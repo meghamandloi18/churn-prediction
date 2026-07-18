@@ -19,7 +19,7 @@ Given customer account data (tenure, contract type, monthly charges, support cal
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
 |---|---|---|---|---|---|
 | Logistic Regression | 0.72 | 0.67 | 0.67 | 0.67 | ~0.78 |
-| Random Forest | see notebook output | | | | |
+| Random Forest | 0.68 | 0.63 | 0.60 | 0.61 | 0.74 |
 
 Contract type, monthly charges, and tenure were the strongest predictors of churn — month-to-month customers with high charges and short tenure are the highest-risk segment.
 
