@@ -41,7 +41,7 @@ jupyter notebook customer_churn_prediction.ipynb
 - `requirements.txt` — dependencies
 
 ## Live demo
-Deployed on Streamlit Community Cloud: **[add your URL here after deploying]**
+Deployed on Streamlit Community Cloud: {https://churn-prediction-he2kupyqfpzddkjhl3wksc.streamlit.app
 
 Run locally:
 ```bash
