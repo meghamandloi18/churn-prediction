@@ -21,6 +21,8 @@ Given customer account data (tenure, contract type, monthly charges, support cal
 | Logistic Regression | 0.72 | 0.67 | 0.67 | 0.67 | ~0.78 |
 | Random Forest | 0.68 | 0.63 | 0.60 | 0.61 | 0.74 |
 
+Logistic Regression outperformed Random Forest on every metric, likely because the underlying churn signal in this dataset is closer to linear — a good reminder that a more complex model isn't always the better choice.
+
 Contract type, monthly charges, and tenure were the strongest predictors of churn — month-to-month customers with high charges and short tenure are the highest-risk segment.
 
 ## Tech stack
